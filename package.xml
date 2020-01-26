@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ds4_utils</name>
+  <version>0.1.0</version>
+  <description>ds4_utils package</description>
+
+  <maintainer email="naoki.mizuno.256@gmail.com">Naoki Mizuno</maintainer>
+
+  <license>MIT</license>
+
+
+  <author>Naoki Mizuno</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>ds4_driver</exec_depend>
+  <exec_depend>view_controller_msgs</exec_depend>
+</package>

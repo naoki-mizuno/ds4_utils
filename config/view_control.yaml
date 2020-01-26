@@ -1,0 +1,16 @@
+target_frame: world
+# Timeout for detecting tapping
+tap_timeout: 0.5
+# Altitude (or elevation) angle in radians
+initial_altitude: 0.4
+altitude_scale: 1
+# Azimuth angle in radians
+initial_azimuth: 0.4
+azimuth_scale: -2
+# Distance in meters
+initial_distance: 10
+distance_scale: 8
+# Maximum rate to publish messages
+rate: 10
+# Topic to publish the CameraPlacement messages to
+topic_name: /rviz/camera_placement

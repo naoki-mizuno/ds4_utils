@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+  <node pkg="ds4_utils" type="view_control.py" name="view_control" >
+    <rosparam command="load" file="$(find ds4_utils)/config/view_control.yaml" />
+  </node>
+</launch>
